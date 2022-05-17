@@ -1,7 +1,19 @@
+import Helmet from 'react-helmet'
+import { Header, Titulo, ContenedorHeader } from '../Elements/Header'
+
 const ExpensesByCategory = () => {
   return (
-    <h1>Gastos por Categoría</h1>
-   );
+    <>
+      <Helmet>
+        <title>Expenses by Category</title>
+      </Helmet>
+      <Header>
+        <ContenedorHeader>
+          <Titulo>Expenses by Category</Titulo>
+        </ContenedorHeader>
+      </Header>
+    </>
+  )
 }
 
-export default ExpensesByCategory;
+export default ExpensesByCategory
