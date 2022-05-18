@@ -1,7 +1,19 @@
+import Helmet from 'react-helmet'
+import { Header, Title } from '../Elements/Header'
+import BtnReturn from '../Elements/BtnReturn'
+
 const ExpensesList = () => {
   return (
-    <h1>Lista de gastos</h1>
-   );
+    <>
+      <Helmet>
+        <title>Expenses List</title>
+      </Helmet>
+      <Header>
+        <BtnReturn />
+        <Title>Expenses List</Title>
+      </Header>
+    </>
+  )
 }
 
-export default ExpensesList;
+export default ExpensesList

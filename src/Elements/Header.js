@@ -12,7 +12,7 @@ const Header = styled.div`
 	}
 `;
 
-const Titulo = styled.h1`
+const Title = styled.h1`
 	font-weight: normal;
 	text-transform: uppercase;
 	font-size: 2.5rem; /* 40px */
@@ -47,4 +47,4 @@ const ContenedorBotones = styled.div`
 	align-items: center;
 `;
 
-export {Header, Titulo, ContenedorHeader, ContenedorBotones}
+export {Header, Title, ContenedorHeader, ContenedorBotones}

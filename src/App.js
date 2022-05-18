@@ -1,11 +1,11 @@
 import Helmet from 'react-helmet'
 import {
   Header,
-  Titulo,
+  Title,
   ContenedorHeader,
   ContenedorBotones,
 } from './Elements/Header'
-import Boton from './Elements/Button'
+import Button from './Elements/Button'
 
 function App() {
   return (
@@ -15,11 +15,11 @@ function App() {
       </Helmet>
       <Header>
         <ContenedorHeader>
-          <Titulo>Agregar Gasto</Titulo>
+          <Title>Agregar Gasto</Title>
           <ContenedorBotones>
-            <Boton to='/category'>Category</Boton>
-            <Boton to='/expenses-list'>Spend List</Boton>
-            <Boton to='/'>X</Boton>
+            <Button to='/category'>Category</Button>
+            <Button to='/expenses-list'>Spend List</Button>
+            <Button to='/'>X</Button>
           </ContenedorBotones>
         </ContenedorHeader>
       </Header>
